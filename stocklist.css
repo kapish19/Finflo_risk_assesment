@@ -1,0 +1,43 @@
+/* src/components/StockList.css */
+.content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content h2 {
+    margin-top: 0;
+}
+
+.stock-list {
+    margin: 20px 0;
+}
+
+.stock-item {
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stock-item span {
+    font-size: 18px;
+    color: #4e73df;
+}
+
+.exit-button {
+    background-color: #4e73df;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.exit-button:hover {
+    background-color: #2e59d9;
+}
